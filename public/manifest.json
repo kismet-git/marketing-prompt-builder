@@ -1,0 +1,35 @@
+{
+  "name": "Marketing Prompt Builder",
+  "short_name": "Prompt Builder",
+  "description": "Get a custom ChatGPT prompt for your next marketing challenge in under 60 seconds. No AI skills required.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0000ff",
+  "icons": [
+    {
+      "src": "https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-DhPc8bKTIGUXJtTJtKViItQIVfazPu.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-DhPc8bKTIGUXJtTJtKViItQIVfazPu.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-DhPc8bKTIGUXJtTJtKViItQIVfazPu.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-DhPc8bKTIGUXJtTJtKViItQIVfazPu.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

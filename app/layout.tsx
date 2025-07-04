@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   description:
     "Get a custom ChatGPT prompt for your next marketing challenge in under 60 seconds. No AI skills required.",
   icons: {
-    icon: "https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-OkSxa1CvyxbGXfXTW8yDtt1eBci3lk.png",
+    icon: "https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-DhPc8bKTIGUXJtTJtKViItQIVfazPu.png",
     shortcut:
-      "https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-OkSxa1CvyxbGXfXTW8yDtt1eBci3lk.png",
-    apple: "https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-OkSxa1CvyxbGXfXTW8yDtt1eBci3lk.png",
+      "https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-DhPc8bKTIGUXJtTJtKViItQIVfazPu.png",
+    apple: "https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-DhPc8bKTIGUXJtTJtKViItQIVfazPu.png",
   },
   manifest: "/manifest.json",
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
@@ -31,6 +31,19 @@ export default function RootLayout({
         <meta
           name="description"
           content="Get a custom ChatGPT prompt for your next marketing challenge in under 60 seconds. No AI skills required."
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          href="https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-DhPc8bKTIGUXJtTJtKViItQIVfazPu.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-DhPc8bKTIGUXJtTJtKViItQIVfazPu.png"
+        />
+        <link
+          rel="shortcut icon"
+          href="https://d7gtruneqk2qegaa.public.blob.vercel-storage.com/app-icon-0422ff-DhPc8bKTIGUXJtTJtKViItQIVfazPu.png"
         />
       </head>
       <body className={inter.className}>{children}</body>
